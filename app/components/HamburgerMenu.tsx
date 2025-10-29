@@ -36,8 +36,8 @@ export default function HamburgerMenu() {
             onClick={closeMenu}
           />
           
-          {/* Menu Panel */}
-          <div className="fixed top-0 right-0 h-full w-64 bg-white dark:bg-dark-base shadow-lg transform transition-transform duration-300 ease-in-out">
+          {/* Menu Panel (left side) */}
+          <div className="fixed top-0 left-0 h-full w-64 bg-white dark:bg-dark-base shadow-lg transform transition-transform duration-300 ease-in-out">
             <div className="flex flex-col h-full">
               {/* Header */}
               <div className="flex items-center justify-between p-4 border-b border-gray-200 dark:border-dark-border-subtle">

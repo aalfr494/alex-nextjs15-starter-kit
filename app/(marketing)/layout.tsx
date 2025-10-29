@@ -16,6 +16,7 @@ const MarketingLayout = ({children}: PropsWithChildren) => {
       <header className="border-b border-gray-200 dark:border-dark-border-subtle bg-white dark:bg-dark-base">
         <div className="container mx-auto flex h-16 items-center justify-between px-4">
           <div className="flex items-center gap-8">
+            <HamburgerMenu />
             <Link href="/" className="text-xl font-bold">
               StarterKit
             </Link>
@@ -81,7 +82,6 @@ const MarketingLayout = ({children}: PropsWithChildren) => {
                 </button>
               </SignUpButton>
             </div>
-            <HamburgerMenu />
           </div>
         </div>
       </header>
